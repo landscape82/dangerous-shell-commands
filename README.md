@@ -1,7 +1,7 @@
 # dangerous-shell-commands
 List of dangerous shell commands to prevent new linux users to get tricked by trolls. Feel free to contribute
 # List
-1. rm -rf /
+1. rm -rf /*
 2. :(){ :|: & };:
 3. mkfs /dev/sda1 
 4. cat /dev/zero > /dev/sda1
